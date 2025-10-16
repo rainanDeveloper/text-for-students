@@ -1,0 +1,33 @@
+{
+  "name": "text-for-students",
+  "version": "1.0.0",
+  "description": "Text made to my sister's students",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node build.js",
+    "dev": "nodemon --watch README.md --watch build.js --exec \"node build && serve .\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainanDeveloper/text-for-students.git"
+  },
+  "keywords": [
+    "text",
+    "students",
+    "developer",
+    "roles"
+  ],
+  "author": "Rainan Miranda de Jesus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rainanDeveloper/text-for-students/issues"
+  },
+  "homepage": "https://github.com/rainanDeveloper/text-for-students#readme",
+  "dependencies": {
+    "marked": "^16.4.0",
+    "nodemon": "^3.1.10",
+    "serve": "^14.2.5"
+  }
+}
