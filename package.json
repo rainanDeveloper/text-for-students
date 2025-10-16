@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "build": "node build.js",
-    "dev": "nodemon --watch README.md --watch build.js --exec \"node build && serve .\"",
+    "dev": "nodemon --watch README.md --watch build.js --exec \"npm run build & npm run start\"",
+    "start": "serve ./dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

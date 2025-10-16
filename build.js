@@ -28,7 +28,16 @@ ${htmlContent}
 </html>
 `;
 
-// write to index.html
-fs.writeFileSync('./index.html', finalHtml);
+const distFolder = './dist';
+
+// create dist file
+if (fs.existsSync(distFolder)) {
+  fs.rmSync(distFolder, { recursive: true }); // Remove existing folder first
+}
+
+fs.mkdirSync(distFolder);
+
+// write final dist html file
+fs.writeFileSync('./dist/index.html', finalHtml);
 console.log('index.html generated successfully!');
 
