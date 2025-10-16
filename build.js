@@ -13,6 +13,7 @@ const finalHtml = `
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Um texto pequeno explicando o que eu, como Lead Software Engineer, faço na empresa que trabalho, para alunos de um curso de programação" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Rainan Miranda de Jesus &lt;rainan.jesus@pm.me&gt; | Lead Software Engineer (Full-Stack / DevOps / Scrum Master)</title>
   <style>
